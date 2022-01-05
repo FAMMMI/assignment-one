@@ -1,0 +1,51 @@
+body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+    margin: 0;
+}
+.coloured-text{
+    color: rgb(103, 185, 20);
+}
+.border-line{
+    border-left: 3px solid ;
+    border-image: linear-gradient(yellow, rgb(26, 197, 54));
+    border-image-slice: 1;
+    padding-left: 15px;
+   
+}
+h1{
+    font-size: 40px;
+    
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 80px;
+}
+.half{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.half img{
+    width: 80%;
+    
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(yellow, rgb(240, 123, 27));
+    color: white;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#first-half{
+    margin-top: 120px;
+
+}
+#head-of-body{
+    text-align: center;
+}
