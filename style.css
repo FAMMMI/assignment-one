@@ -5,21 +5,22 @@ body{
     margin: 0;
 }
 .coloured-text{
-    color: rgb(103, 185, 20);
+    color: rgb(124, 224, 24);
 }
 .border-line{
     border-left: 3px solid ;
-    border-image: linear-gradient(yellow, rgb(26, 197, 54));
+    border-image: linear-gradient(rgb(240, 243, 67), rgb(45, 245, 78));
     border-image-slice: 1;
     padding-left: 15px;
     height: 110px;
+    
    
 }
 h1{
     font-size: 40px;
     line-height: 40px;
 }
-h2{
+.head-of-body{
     margin-bottom: 40px;
 }
 .flexible-container{
@@ -38,7 +39,7 @@ h2{
 }
 .button{
     text-decoration: none;
-    background-image: linear-gradient(yellow, rgb(240, 123, 27));
+    background-image: linear-gradient(rgb(220, 241, 25), rgb(252, 165, 69));
     color: white;
     font-weight: 700;
     padding: 10px 30px;
@@ -55,14 +56,14 @@ h2{
     text-align: center;
 }
 #body-first{
-    background-color: rgb(150, 180, 236);
+    background-color: rgb(181, 203, 243);
 }
 #body-second{
     
-    background-color: rgb(235, 139, 158);
+    background-color: rgb(230, 169, 182);
 }
 #body-third{
-    background-color: rgb(193, 236, 129);
+    background-color: rgb(207, 233, 168);
 }
 .body-container{
     margin-left: 2%;
