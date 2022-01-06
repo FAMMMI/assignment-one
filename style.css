@@ -12,16 +12,11 @@ body{
     border-image: linear-gradient(rgb(240, 243, 67), rgb(45, 245, 78));
     border-image-slice: 1;
     padding-left: 15px;
-    height: 110px;
-    position: relative;
-    
-    
-   
+    height: 110px;    
 }
 h1{
     font-size: 40px;
-    line-height: 40px;
-    
+    line-height: 40px; 
 }
 .head-of-body{
     margin-bottom: 40px;
