@@ -9,14 +9,17 @@ body{
 }
 .border-line{
     border-left: 3px solid ;
+    border-radius: 16px;
     border-image: linear-gradient(rgb(240, 243, 67), rgb(45, 245, 78));
-    border-image-slice: 1;
-    padding-left: 15px;
-    height: 110px;    
+    padding-left: 10px;
+    border-image-slice:15 0 15 4;
+    border-image-width:0px 0px 0px 4px;
+    
+    line-height: 40px;
+        
 }
 h1{
-    font-size: 40px;
-    line-height: 40px; 
+    font-size: 50px;
 }
 .head-of-body{
     margin-bottom: 40px;
