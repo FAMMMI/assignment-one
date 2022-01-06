@@ -8,12 +8,12 @@ body{
     color: rgb(124, 224, 24);
 }
 .border-line{
-    border-left: 2px solid ;
+    border-left: 4px solid ;
     border-top-left-radius: 16px;
     border-image: linear-gradient(rgb(240, 243, 67), rgb(45, 245, 78));
     padding-left: 10px;
     border-image-slice:5 0 5 4;
-    border-radius: 200px;
+    border-radius: 20px;
     line-height:40px;
         
 }
